@@ -1,0 +1,15 @@
+#container{
+    display: flex;
+}
+#main{
+    flex: 3;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+
+}
+#sidebar{
+    /* border: 1px solid black; */
+    margin-right: 10px;
+}
